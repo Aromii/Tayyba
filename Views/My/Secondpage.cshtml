@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Secondpage";
+    Layout = "~/Views/Sheared/_LayoutPage1.cshtml";
+}
+
+<section id="about" class="bg-one">
+    <div class="container">
+        <div class="row">
+            <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                <h2>Write <span class="color">Memo</span></h2>
+                <div class="border">
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <textarea class="form-control" id="Textarea" placeholder="Create your own Memo" rows="12"></textarea>
+                <input class="form-control" type='hidden' name="text">
+            </div>
+
+            <div class="pull-right">
+                <a class="btn btn-transparent" href="/My/AllMemos">View All</a>
+                <a href="" class="btn btn-transparent">Save</a>
+                <a href="" class="btn btn-transparent">Update</a>
+                <a href="og-grid" class="btn btn-transparent">DELETE</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
